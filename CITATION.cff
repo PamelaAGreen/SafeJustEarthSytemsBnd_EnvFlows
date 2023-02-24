@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Green"
   given-names: "Pamela"
-  orcid: "https://orcid.org/0009-0006-7803-8182"
+  orcid: https://orcid.org/0009-0006-7803-8182
 title: "Safe and Just Earth Systems Boundaries for Surface Water: Hydrologic Alteration of Environmental Flows"
 version: 0.1.0
 doi: 10.5281/zenodo.7674609
