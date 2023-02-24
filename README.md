@@ -1,6 +1,7 @@
 # SafeJustEarthSytemsBnd_EnvFlows
 ***
 <font color=red>Title: <b>Safe and Just Earth Systems Boundaries for Surface Water: Hydrologic Alteration of Environmental Flows</b>
+  [![DOI](https://zenodo.org/badge/601688194.svg)](https://zenodo.org/badge/latestdoi/601688194)
   
   Author: Pamela A. Green (pg@pamelaagreen.com)  
 
