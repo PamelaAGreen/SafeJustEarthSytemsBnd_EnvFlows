@@ -16,6 +16,8 @@ Long-term mean monthly discharge is calculated for the modelled pristine (non-hu
 
 We also mask upstream headwater areas (smaller than 250km<sup>2</sup>) in the global raster data that have modelled irrigation depths below the median irrigation depth for small headwater cells (3.6mm/yr). This mask is applied to eliminate noise in the modelled raster data associated with very low irrigation and discharge values in headwater grid cells.
 
+River basin level outputs for basin area, pristine discharge, available pristine discharge, disturbed/contemporary discharge and population generated from the python code and output to the ModelOutput/BASIN_Stats_EFLOWSChg20.xlsx spreadsheet were combined in the final ModelOutput/BASIN_Stats_EFLOWSChg20_CurrrentStatePCT.xlsx spreadsheet to calculate the total global area and global populations inside the Safe Earth System Boundary that is listed in the manuscript (spreadhseet cells N2 and N3, highlighted in yellow).
+
 This work is part of the Earth Commission which is hosted by Future Earth and is the science component of the Global Commons Alliance. The Global Commons Alliance is a sponsored project of Rockefeller Philanthropy Advisors, with support from Oak Foundation, MAVA, Porticus, Gordon and Betty Moore Foundation, Herlin Foundation and the Global Environment Facility. The Earth Commission is also supported by the Global Challenges Foundation. 
 
 <b>References:</b>
