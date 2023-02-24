@@ -1,7 +1,8 @@
 # SafeJustEarthSytemsBnd_EnvFlows
 ***
 <font color=red>Title: <b>Safe and Just Earth Systems Boundaries for Surface Water: Hydrologic Alteration of Environmental Flows</b>
-Author: Pamela A. Green  
+  
+  Author: Pamela A. Green (pg@pamelaagreen.com)  
 
 This code was developed between December, 2021 and February, 2023 by Pamela Green, Senior Research Associate, CUNY Advanced Science Research Center, New York, NY under subcontract to Griffith University.  </font>
 ***
