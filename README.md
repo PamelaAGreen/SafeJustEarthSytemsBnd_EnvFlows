@@ -6,6 +6,8 @@ Author: Pamela A. Green
 This code was developed between December, 2021 and February, 2023 by Pamela Green, Senior Research Associate, CUNY Advanced Science Research Center, New York, NY under subcontract to Griffith University.  </font>
 ***
 
+## Model Description
+
 This code represents spatial modelling for development of the safe and just surface water target for Working Group 3 of the Earth Commission for the Earth Commission Long Report and the <i><b>"Safe and Just Earth Systems Boundaries"</b></i> publication. The surface water target includes spatial modelling of the extent of global-scale hydrological alteration of environmental flows.
 
 The concept of environmental flow stress is employed here to define the Earth System Boundary for the safe water target. Environmental flow stress is defined as an alteration of surface water flow between pristine (non-human impacted) and disturbed (human impacted) conditions that exceeds a given threshold outside of the Earth System Boundary. To quantify the extent of alteration of surface flows, we calculate the number of months in a year where the contemporary disturbed discharge is more than 20% different from pristine discharge. This data is then represented as the proportion of months in a year with more than a 20% difference. 
@@ -15,6 +17,8 @@ We derived the pristine and disturbed monthly river flow datasets from the WBM w
 Long-term mean monthly discharge is calculated for the modelled pristine (non-human impacted) and disturbed (human impacted) discharge from the WBM model over the 2000-2020 time domain to determine the extent of altered flow across the global gridded extent. The analysis is limited to only the perennial or actively flowing river extents by applying a 3mm/yr upstream monthly average runoff exceedance threshold (Fekete et al. 2001) occurring for at least 10 years out of the 2000-2020 time domain. Alteration of environmental flows for subbasins areas is calculated for subbasin confluence discharge points defined by the WBM 6-minute topological river network.
 
 We also mask upstream headwater areas (smaller than 250km<sup>2</sup>) in the global raster data that have modelled irrigation depths below the median irrigation depth for small headwater cells (3.6mm/yr). This mask is applied to eliminate noise in the modelled raster data associated with very low irrigation and discharge values in headwater grid cells.
+
+## Model Input and Output Data
 
 River basin level outputs for basin area, pristine discharge, available pristine discharge, disturbed/contemporary discharge and population are generated from the python code and output to the <b>ModelOutput/BASIN_Stats_EFLOWSChg20.xlsx</b> spreadsheet. This information is combined in the final <b>ModelOutput/BASIN_Stats_EFLOWSChg20_CurrrentStatePCT.xlsx</b> spreadsheet to calculate the total global area and global populations inside the Safe and Just Earth System Boundary for Surface Water listed in the manuscript (spreadhseet cells N2 and N3, highlighted in yellow).
 
