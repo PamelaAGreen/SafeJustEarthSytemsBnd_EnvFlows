@@ -22,7 +22,7 @@ We also mask upstream headwater areas (smaller than 250km<sup>2</sup>) in the gl
 
 River basin level outputs for basin area, pristine discharge, available pristine discharge, disturbed/contemporary discharge and population are generated from the python code and output to the <b>ModelOutput/BASIN_Stats_EFLOWSChg20.xlsx</b> spreadsheet. This information is combined in the final <b>ModelOutput/BASIN_Stats_EFLOWSChg20_CurrrentStatePCT.xlsx</b> spreadsheet to calculate the total global area and global populations inside the Safe and Just Earth System Boundary for Surface Water listed in the manuscript (spreadhseet cells N2 and N3, highlighted in yellow).
 
-All input datasets required to run the model are located under the <i><b>ModelInput</b></i> folder with raster data in zipped format to minimize space requirements. The code extracts the zipped files and then deletes the uncompressed files upon completion. All model outputs are located under the <i><b>ModelOutput</b></i> folder. Please reference the <b>README.xlsx</b> file for a full listing of the model inputs and output data files.
+All input datasets required to run the model are located under the <i><b>ModelInput</b></i> folder with raster data in zipped format to minimize space requirements. The code extracts the zipped files and then deletes the uncompressed files upon completion. All model outputs are located under the <i><b>ModelOutput</b></i> folder. Please reference the <b>README.xlsx</b> file for a full listing of the model input and output data files.
 
 ## Funding
 
